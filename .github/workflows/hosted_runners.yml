@@ -21,7 +21,7 @@ on:
 
   push:
     branches:
-      - 'master'
+      - 'neveroverwrite'
       - 'main'
 
     tags:
