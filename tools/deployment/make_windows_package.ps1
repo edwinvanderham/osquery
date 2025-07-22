@@ -240,14 +240,15 @@ $wix +=
               Source='OSQUERY_SHELL_PATH'
               KeyPath='yes'/>
           </Component>
+          <Component NeverOverwrite='yes' Id='flagfile' Win64='yes' Guid='554b27ba-9829-4a9a-a09b-d92d7f694a7b'>
+            <File Id='osquery.flags'
+              Name='osquery.flags'
+              Source='OSQUERY_FLAGS_PATH'/>
           <Component Id='extras' Win64='yes' Guid='3f435561-8fe7-4725-975a-95930c44d063'>
             <File Id='osquery.conf'
               Name='osquery.conf'
               Source='OSQUERY_CONF_PATH'
               KeyPath='yes'/>
-            <File Id='osquery.flags'
-              Name='osquery.flags'
-              Source='OSQUERY_FLAGS_PATH'/>
             <File Id='osquery.man'
               Name='osquery.man'
               Source='OSQUERY_MAN_PATH'/>
