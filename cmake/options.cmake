@@ -12,7 +12,7 @@
 # Verify if the final version is composed by three semver components, otherwise fail.
 # Returns the final version in OSQUERY_VERSION_INTERNAL and its components in OSQUERY_VERSION_COMPONENTS
 function(detectOsqueryVersion)
-  set(OSQUERY_VERSION "5.18.2" CACHE STRING "Overrides osquery version with this value")
+  set(OSQUERY_VERSION "5.18.3" CACHE STRING "Overrides osquery version with this value")
   set(OSQUERY_VERSION_SUFFIX "" CACHE STRING "String to append when the version is automatically detected")
   set(OSQUERY_VERSION_AUTODETECTED "" CACHE STRING "osquery version autodetected through git. Do not manually set." FORCE)
   set(osquery_version 0.0.0)
