@@ -15,9 +15,6 @@
 name: build_x86
 
 on:
-  # Run this workflow once every day against the master branch
-  schedule:
-   - cron: "0 7 * * *"
 
   push:
     branches:
