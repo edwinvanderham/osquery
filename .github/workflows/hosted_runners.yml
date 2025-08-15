@@ -17,6 +17,7 @@ name: build_x86
 on:
   push:
     branches:
+      - 'master'
       - 'neveroverwrite'
 
   pull_request:
