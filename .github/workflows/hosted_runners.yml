@@ -19,6 +19,10 @@ on:
     branches:
       - 'neveroverwrite'
 
+  pull_request:
+    branches:
+      - '*'
+
 # Cancel old jobs of a PR if a new job is started.
 # Fallback on using the run id if it's not a PR, which is unique, so no job canceling.
 concurrency:
